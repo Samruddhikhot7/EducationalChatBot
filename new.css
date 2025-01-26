@@ -15,10 +15,12 @@ body {
     overflow: hidden;
     border:2px solid #111a79;
     box-shadow: 0 10px 30px rgba(16, 58, 208, 0.3); 
+    z-index: 1;
 }
 
 body{
-    background-image: url('https://media.istockphoto.com/id/1218737747/vector/learning-online-e-learning-video-call-chat-with-class-distance-education.jpg?s=612x612&w=0&k=20&c=fFFwc3CTP4XtvmruZLiK8EzAbzvAxJL_kw5BsA7z7w8=')
+    background-image: url('https://media.istockphoto.com/id/1218737747/vector/learning-online-e-learning-video-call-chat-with-class-distance-education.jpg?s=612x612&w=0&k=20&c=fFFwc3CTP4XtvmruZLiK8EzAbzvAxJL_kw5BsA7z7w8=');
+    z-index: -1;
 }
 
 .Title{
