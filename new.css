@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 5% auto;
+    /* background: white; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border:2px solid #111a79;
+    box-shadow: 0 10px 30px rgba(16, 58, 208, 0.3); 
+}
+
+body{
+    background-image: url('https://media.istockphoto.com/id/1218737747/vector/learning-online-e-learning-video-call-chat-with-class-distance-education.jpg?s=612x612&w=0&k=20&c=fFFwc3CTP4XtvmruZLiK8EzAbzvAxJL_kw5BsA7z7w8=')
+}
+
+.Title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Stylish font */
+    font-size: 2em; /* Large text size */
+    background: linear-gradient(to right, #4c85b7, #000680); /* Green gradient */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    color: transparent; /* Make the text color transparent so the gradient shows */
+    text-align: center; /* Center align the text */
+    font-weight: bold; /* Make the font bold */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap'); 
+
+.chat-box {
+    height: 400px;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.input-container {
+    display: flex;
+    padding: 10px;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#send-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
+
+.user-message {
+    text-align: right;
+    margin: 5px 0;
+    background-color: #0c1663;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.bot-message {
+    text-align: left;
+    margin: 5px 0;
+    background-color: #c0cfd9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.loading-indicator {
+    text-align: center;
+    margin: 10px 0;
+    font-style: italic;
+}
